@@ -5,22 +5,11 @@
 
 // Question No.2
 // var matrix = [
-//     [0 1 2 3  "<br />"],
-//     [1, 0, 1, 2 + "<br />"],
+//     [0 ,1, 2 ,3  , "<br />"],
+//     [1, 0, 1, 2 ,"<br />"],
 //     [2, 1, 0, 1]
 //   ];
-// var matrix = [
-//     [1,2,3]
-//     [4,5,6]
-//     [7,8,9]
-//   ];
-//   document.write(matrix)
-
-// var matrix = [
-//     [0, 1, 2, 3, 4],
-//     [5, 6, 7, 8, 9]
-//   ];
-// document.write(matrix)  
+//   document.write(matrix);
 
 // Question No.3
 // for(var i=1;i<=10;i++){
@@ -60,16 +49,52 @@
 // for (var i = 1; i <= 20; i += 2) {
 //     document.write(i , ",") }
 
-document.write("Series : ")
-for (var i = 2; i <= 20; i += 2) {  
-            document.write(i , "k,") }
+// document.write("Series : ")
+// for (var i = 2; i <= 20; i += 2) {  
+//             document.write(i , "k,") }
     
 
-
-
-  
 // Question No.7
-// Question No.8
-// Question No.9
-// Question No.10
 
+// var arr = ["cake" , "appepie" ,"cookie" ,"chips" , "patties"];
+// var userInput = prompt("Enter bakers items : ");
+
+// var flag = false;
+// for (var i = 0; i < arr.length; i++) {
+//   if (userInput.toLowerCase() === arr[i]) {
+//     flag = true;
+//     console.log(userInput, "is available at index" , i , "in our bakery");
+//   }
+// }
+// if (flag === false) {
+//   console.log("We are sorry" , userInput ,"is not available in our bakery");
+// }
+
+// Question No.8
+// const numbers = [24, 53, 78, 91, 12];
+// var largestNumber = numbers[0];
+// for (var i = 1; i < numbers.length; i++) { 
+//     if (numbers[i] > largestNumber) {
+//         largestNumber = numbers[i];  
+//     }
+// }
+
+// document.write(largestNumber);  
+
+// Question No.9
+// const numbers = [24, 53, 78, 91, 12];
+// var smallestNumber = numbers[0];
+// for (var i = 1; i < numbers.length; i++) { 
+//         if (numbers[i] < smallestNumber) {
+//             smallestNumber = numbers[i];  
+//         }
+//     }
+//     document.write(smallestNumber);  
+    
+
+// Question No.10
+// for (var i = 1 ; i<=100 ; i++){
+//     if(i % 5 === 0){
+//         document.write(i ,",")
+//     }
+// }
