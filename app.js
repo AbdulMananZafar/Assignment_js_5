@@ -71,7 +71,7 @@
 // }
 
 // Question No.8
-// const numbers = [24, 53, 78, 91, 12];
+// var numbers = [24, 53, 78, 91, 12];
 // var largestNumber = numbers[0];
 // for (var i = 1; i < numbers.length; i++) { 
 //     if (numbers[i] > largestNumber) {
@@ -82,7 +82,7 @@
 // document.write(largestNumber);  
 
 // Question No.9
-// const numbers = [24, 53, 78, 91, 12];
+// var numbers = [24, 53, 78, 91, 12];
 // var smallestNumber = numbers[0];
 // for (var i = 1; i < numbers.length; i++) { 
 //         if (numbers[i] < smallestNumber) {
